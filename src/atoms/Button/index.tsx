@@ -1,13 +1,6 @@
 import * as styles from "./styles";
 
-type ButtomConfig = {
-  buttonText: string;
-  buttonBackground?: string;
-  buttonBackgroundHover?: string;
-  buttonColor?: string;
-  buttonColorHover?: string;
-  buttonFontSize: string;
-};
+import { ButtomConfig } from "../../dto's/CreatePropsHeader";
 
 type Props = {
   props: ButtomConfig;

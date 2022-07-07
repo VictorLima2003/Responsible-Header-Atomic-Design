@@ -1,22 +1,6 @@
 import * as styles from "./styles";
 
-type MenuRoutes = {
-  title: string;
-  route: string;
-};
-
-type MenuItemsConfig = {
-  menuItemsColor: string;
-  menuItemsColorHover: string | null;
-  menuItemsFontSize: string;
-};
-
-type MenuConfig = {
-  menuItemsDefined: MenuRoutes[];
-  menuBackground?: string;
-  menuItemsConfig: MenuItemsConfig;
-  buttonColorHover?: string;
-};
+import { MenuConfig } from "../../dto's/CreatePropsHeader";
 
 type Props = {
   props: MenuConfig;

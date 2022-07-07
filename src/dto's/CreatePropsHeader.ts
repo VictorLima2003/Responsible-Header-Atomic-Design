@@ -1,4 +1,4 @@
-type ButtomConfig = {
+export type ButtomConfig = {
   buttonText: string;
   buttonBackground?: string;
   buttonBackgroundHover?: string;
@@ -7,18 +7,18 @@ type ButtomConfig = {
   buttonFontSize: string;
 };
 
-type MenuRoutes = {
+export type MenuRoutes = {
   title: string;
   route: string;
 };
 
-type MenuItemsConfig = {
+export type MenuItemsConfig = {
   menuItemsColor: string;
   menuItemsColorHover: string | null;
   menuItemsFontSize: string;
 };
 
-type MenuConfig = {
+export type MenuConfig = {
   menuItemsDefined: MenuRoutes[];
   menuBackground: string;
   menuItemsConfig: MenuItemsConfig;
